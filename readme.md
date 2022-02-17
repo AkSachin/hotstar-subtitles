@@ -1,0 +1,1 @@
+This chrome extension injects css in Disney+Hotstar website to make the subtitles background transparent.

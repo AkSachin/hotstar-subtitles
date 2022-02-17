@@ -1,0 +1,25 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "name": "Hotstar Subtitles",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "This extensions gives transparent background to hotstar subtitles",
+  "permissions": [
+    "https://www.hotstar.com/*",
+    "https://hotstar.com/*",
+    "tabs"
+  ],
+  "content_scripts" : [{
+        "matches" : [
+    "https://www.hotstar.com/*",
+    "https://hotstar.com/*"],
+        "js" : ["inject.js"]
+    }],
+    "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+  }
+}
+
