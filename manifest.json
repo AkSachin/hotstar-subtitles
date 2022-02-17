@@ -4,7 +4,7 @@
   "name": "Hotstar Subtitles",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "This extensions gives transparent background to hotstar subtitles",
+  "description": "Give transparent background to hotstar subtitles",
   "permissions": [
     "https://www.hotstar.com/*",
     "https://hotstar.com/*",
