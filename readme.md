@@ -10,7 +10,7 @@ You can modify the styling in `src/inject.js` file as per your liking.
 
 # Screenshots
 
-This is how it'll look after installation. (Click on image for better clarity)
+This is how it'll look after installation. (Click on image to enlarge)
 
 Before             |  After
 :-------------------------:|:-------------------------:
