@@ -1,25 +1,33 @@
 {
-"update_url": "https://clients2.google.com/service/update2/crx",
-
   "name": "Hotstar Subtitles",
-  "version": "0.0.1",
-  "manifest_version": 2,
-  "description": "Give transparent background to hotstar subtitles",
+  "version": "0.0.2",
+  "manifest_version": 3,
+  "description": "Give transparent background to Hotstar subtitles",
   "permissions": [
+    "activeTab",
+    "storage",
     "https://www.hotstar.com/*",
-    "https://hotstar.com/*",
-    "tabs"
+    "https://hotstar.com/*"
   ],
-  "content_scripts" : [{
-        "matches" : [
-    "https://www.hotstar.com/*",
-    "https://hotstar.com/*"],
-        "js" : ["inject.js"]
-    }],
-    "icons": {
-      "16": "icon16.png",
-      "48": "icon48.png",
-      "128": "icon128.png"
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.hotstar.com/*",
+        "https://hotstar.com/*"
+      ],
+      "js": ["src/inject.js"]
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
   }
 }
-

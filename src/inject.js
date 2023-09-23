@@ -3,8 +3,12 @@
 var code = `
 .shaka-text-container span {
     background-color: transparent !important;
-    font-size: 32px !important;
-    text-shadow: 1px 1px 2px black;
+    font-size: 28px !important;
+    line-height: normal !important;
+    font-weight: bolder !important;
+    color: #ffffff !important;
+    text-shadow: #000000 0px 0px 7px !important;
+    font-family: Netflix Sans,Helvetica Nueue,Helvetica,Arial,sans-serif !important;
 }
 `;
 
