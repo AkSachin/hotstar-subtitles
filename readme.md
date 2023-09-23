@@ -1,4 +1,4 @@
-# Hotstar Subtitle Chrome Extension
+# Hotstar Subtitles Chrome Extension
 
 Make your Hotstar subtitles more like Netflix.
 
